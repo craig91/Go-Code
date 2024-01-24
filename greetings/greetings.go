@@ -11,6 +11,7 @@ func Hello(name string) (string, error) {
 		return name, errors.New("empy name")
 	}
 	message := fmt.Sprintf(randomFormat(), name)
+	// message := fmt.Sprintf(randomFormat()) <-- bad code for testing if error handling works via the go test.
 	return message, nil
 }
 
