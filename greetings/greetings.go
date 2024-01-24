@@ -29,9 +29,9 @@ func Hellos(names []string) (map[string]string, error) {
 func randomFormat() string {
 	// A slice of message formats
 	formats := []string{
-		"Hi, %v. Welcome!",
-		"Great to see you, %v",
-		"Hail, %v! Well met!",
+		"Hi, %v. Welcome! ",
+		"Great to see you, %v ",
+		"Hail, %v! Well met! ",
 	}
 
 	return formats[rand.Intn(len(formats))]
