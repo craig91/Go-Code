@@ -37,7 +37,7 @@ func main() {
 
 	sum = part1 + part2
 
-	var (
+	var ( // --> Block assignment
 		lessonName = "Variables"
 		lessonType = "Demo"
 	)
@@ -45,7 +45,7 @@ func main() {
 	fmt.Println("LessonName=", lessonName)
 	fmt.Println("LessonType=", lessonType)
 
-	word1, word2, _ := "hello", "world", "!"
+	word1, word2, _ := "hello", "world", "!" // --> compound assignment
 	fmt.Println(word1, word2)
 	fmt.Println("part 2 is", part2, "other is", other)
 	fmt.Println("part 1 is", part1, "other is", other)
