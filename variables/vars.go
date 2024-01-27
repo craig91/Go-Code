@@ -21,6 +21,14 @@ func main() {
 
 	// create and assign " := "
 	test := 3 // creates the variable and assigns the value, a shorthand for var test int = 3
+	y, z := 10, "sampleTest"
+
+	const MaxSpeed = 30
+	const MinPurchasePrice = 7.50
+	const AppAuthor = "Bob"
+
+	fmt.Println(MaxSpeed, MinPurchasePrice, AppAuthor)
+	fmt.Println(y, z)
 	fmt.Println(test)
 
 	fmt.Println(example, example2, example3)
