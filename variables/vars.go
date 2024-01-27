@@ -27,6 +27,34 @@ func main() {
 	const MinPurchasePrice = 7.50
 	const AppAuthor = "Bob"
 
+	var myName = "Craig"
+	var name string = "Timmy"
+	userName := "admin"
+
+	var sum int
+	part1, other := 1, 5
+	part2, other := 2, 0
+
+	sum = part1 + part2
+
+	var (
+		lessonName = "Variables"
+		lessonType = "Demo"
+	)
+
+	fmt.Println("LessonName=", lessonName)
+	fmt.Println("LessonType=", lessonType)
+
+	word1, word2, _ := "hello", "world", "!"
+	fmt.Println(word1, word2)
+	fmt.Println("part 2 is", part2, "other is", other)
+	fmt.Println("part 1 is", part1, "other is", other)
+	fmt.Println("The sum is", sum)
+
+	fmt.Println("userName = ", userName)
+	fmt.Println("name = ", name)
+	fmt.Println("my name is ", myName)
+
 	fmt.Println(MaxSpeed, MinPurchasePrice, AppAuthor)
 	fmt.Println(y, z)
 	fmt.Println(test)
