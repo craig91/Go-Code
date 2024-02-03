@@ -5,6 +5,30 @@ import "fmt"
 func sum(lhs, rhs int) int {
 	return lhs + rhs
 }
+
+// func multiReturn() (int, int, int) {
+// 	return 1, 2, 3
+// }
+
+func double(x int) int {
+	return x + x
+}
+
+func greet() {
+	fmt.Println("Hello from greet function")
+}
 func main() {
-	fmt.Println(sum(12, 44))
+
+	// a, b, _ := multiReturn()
+
+	// result := sum(45, 77)
+	// fmt.Println(result)
+	// fmt.Println(sum(12, 44))
+
+	greet()
+	dozen := double(6)
+	fmt.Println(dozen)
+
+	bakersDozen := sum(dozen, 1)
+	fmt.Println("A baker's dozen is", bakersDozen)
 }
