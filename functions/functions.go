@@ -6,9 +6,12 @@ func sum(lhs, rhs int) int {
 	return lhs + rhs
 }
 
-// func multiReturn() (int, int, int) {
-// 	return 1, 2, 3
-// }
+//	func multiReturn() (int, int, int) {
+//		return 1, 2, 3
+//	}
+func twoNum() (int, int) {
+	return 33, 44
+}
 
 func double(x int) int {
 	return x + x
@@ -31,4 +34,6 @@ func main() {
 
 	bakersDozen := sum(dozen, 1)
 	fmt.Println("A baker's dozen is", bakersDozen)
+
+	fmt.Println(twoNum())
 }
